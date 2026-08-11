@@ -2,7 +2,7 @@ import {test as baseTest, Page} from '@playwright/test'
 import { LoginPage } from '../pages/LoginPage'
 import { DashboardPage } from '../pages/DashboardPage';
 import { UserPage } from '../pages/UserPage';
-import { LeftNavigationPage } from '../pages/leftNavigationPage';
+import { LeftNavigationPage } from '../pages/LeftNavigationPage';
 import { PimPage } from '../pages/PimPage';
 
 type PomFixturesType ={
