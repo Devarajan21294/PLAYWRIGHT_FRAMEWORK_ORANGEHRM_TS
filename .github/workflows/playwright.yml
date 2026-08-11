@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: SECRET_KEY=Salt npm run test_demo_cr_hd
+      run: SECRET_KEY=Salt npm run test_demo_cr_hl
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
